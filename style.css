@@ -1,26 +1,26 @@
-/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 :root {
-    --black: #171321;
-    --dkblue: #0d314b;
-    --plum: #4b0d49;
-    --hotmag: #ff17e4;
-    --magenta: #e310cb;
-    --aqua: #86fbfb;
-    --white: #f7f8fa;
-    --font-size: 1.3rem;
-    --mono: "Oxygen mono", monospace;
-    --sans: Oxygen, sans-serif;
+  --black: #684eac;
+  --dkblue: #0d314b;
+  --plum: #4b0d49;
+  --hotmag: hsl(307, 56%, 49%);
+  --magenta: #b341a5;
+  --aqua: #63dada;
+  --white: #f7f8fa;
+  --font-size: 1.3rem;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
 }
-/* border box model: https://css-tricks.com/box-sizing/ */
+
 html {
     box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
     box-sizing: inherit;
 }
-/* generic styles for the page */
+
 body {
     padding: 0;
     margin: 0;
@@ -29,6 +29,7 @@ body {
     color: var(--white);
     font-size: var(--font-size);
 }
+
 h1,
 h2,
 h3 {
